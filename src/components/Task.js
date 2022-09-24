@@ -21,6 +21,8 @@ export default function Task({task: {id, title, state}, onArchiveTask, onPinTask
         />
       </label>
       
+      <p>TEST</p>
+      
       <label htmlFor="title"
              aria-label={title}
              className="title"
